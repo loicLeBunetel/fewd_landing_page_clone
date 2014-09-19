@@ -54,10 +54,11 @@ table {
     padding: 0 15px;
     width: 940px;
     margin: 0 auto;
+    text-align: center;
 }
 
 body {
-	background-color: lightgray;
+	background-color: #fff;
 	font-family: 'Roboto', sans-serif; 
 }
 
@@ -110,24 +111,28 @@ div {
 	background-size: cover;
 	height: 540px;
 	color: white;
-	text-align: center;
 }
 
-h1, h3 {
+.content h1, .content h3, .content h2 {
 	font-weight: 300;
 	margin-bottom: 20px;
 	letter-spacing: 0.02em;
 }
 
-h1 {
+.content h1 {
 	font-size: 50px;
 	margin-top: 150px;
 }
 
-h3 {
+.content h3 {
 	font-weight: 400;
 	font-size: 24px;
 	margin-top: 20px;
+}
+
+.content h2 {
+	margin-top: 150px;
+	font-size: 44px;
 }
 
 .buttons button, .buttons .watch span{
@@ -165,3 +170,17 @@ img.arrow-down{
   -webkit-animation: bounce 1s ease-out infinite alternate;
 }
 
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+
+.devices img {
+	width: 127px;
+	height: 127px;
+}

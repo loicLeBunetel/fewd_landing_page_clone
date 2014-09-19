@@ -52,10 +52,13 @@ table {
 .content {
     box-sizing: border-box;
     padding: 0 15px;
+    width: 940px;
+    margin: 0 auto;
 }
 
 body {
 	background-color: lightgray;
+	font-family: 'Roboto', sans-serif; 
 }
 
 div {
@@ -67,9 +70,7 @@ div {
     background-color: #fff;
 }
 .top-navigation > .content {
-    width: 940px;
     height: 70px;
-    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -79,8 +80,7 @@ div {
 
 .top-navigation .links {
 	float: right;
-	font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
+	font-size: 17px; 
 	margin-top: 27px;
 	color: #838994; 
 	letter-spacing: 0.03em;
@@ -90,7 +90,7 @@ div {
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 25px;
-	transition: color 0.5s ease-out;
+	transition: color 0.5s ease-in-out;
 }
 
 .top-navigation .links li.active {
@@ -103,3 +103,65 @@ div {
     color: #333333;
 
 }
+
+.introduction {
+	background-image: url('../img/bg-graphic-go-2d18f6f49ce18d38642600987ceed918.jpg');
+	background-position: 0bottom center;
+	background-size: cover;
+	height: 540px;
+	color: white;
+	text-align: center;
+}
+
+h1, h3 {
+	font-weight: 300;
+	margin-bottom: 20px;
+	letter-spacing: 0.02em;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 150px;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+.buttons button, .buttons .watch span{
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	color: white;
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.half {
+	display: inline-block;
+}
+.learn button{
+	background-color: red;
+}
+
+span img {
+	vertical-align: middle;
+}
+
+.arrow {
+	margin-top: 90px;
+}
+
+@-webkit-keyframes bounce{ 
+from {-webkit-transform: translateY(0px);}
+to   {-webkit-transform: translateY(30px);}
+} 
+
+img.arrow-down{
+  -webkit-animation: bounce 1s ease-out infinite alternate;
+}
+

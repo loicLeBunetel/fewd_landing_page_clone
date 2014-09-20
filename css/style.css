@@ -60,6 +60,7 @@ table {
 body {
 	background-color: #fff;
 	font-family: 'Roboto', sans-serif; 
+	color: #4c5058;
 }
 
 div {
@@ -79,6 +80,7 @@ div {
 
 .content > .logo {
 	height: 70px;
+	margin-right: 335px;
 }
 
 .top-navigation .links {
@@ -112,6 +114,9 @@ div {
 	background-position: 0bottom center;
 	background-size: cover;
 	height: 540px;
+}
+
+.introduction .content h1, .introduction .content h3 {
 	color: white;
 }
 
@@ -119,6 +124,7 @@ div {
 	font-weight: 300;
 	margin-bottom: 20px;
 	letter-spacing: 0.02em;
+	color: #1d1e21;
 }
 
 .content h1 {
@@ -129,12 +135,16 @@ div {
 .content h3 {
 	font-weight: 400;
 	font-size: 24px;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 .content h2 {
 	margin-top: 150px;
 	font-size: 44px;
+}
+.content p {
+	font-size: 18px;
+	margin: 30px 15px 120px 15px;
 }
 
 .buttons button, .buttons .watch span{

@@ -63,15 +63,13 @@ body {
 	color: #4c5058;
 }
 
-div {
-	border: 1px solid chocolate;
-}
 
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
-    position: fixed;
     width: 100%;
+    border-bottom: 1px solid #eaebec;
+    position: fixed;
 }
 .top-navigation > .content {
     height: 70px;
@@ -111,7 +109,7 @@ div {
 
 .introduction {
 	background-image: url('../img/bg-graphic-go-2d18f6f49ce18d38642600987ceed918.jpg');
-	background-position: 0bottom center;
+	background-position: bottom center;
 	background-size: cover;
 	height: 540px;
 }
@@ -123,13 +121,13 @@ div {
 .content h1, .content h3, .content h2 {
 	font-weight: 300;
 	margin-bottom: 20px;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.04em;
 	color: #1d1e21;
 }
 
 .content h1 {
 	font-size: 50px;
-	margin-top: 220px;
+	padding-top: 150px;
 }
 
 .content h3 {
@@ -144,25 +142,25 @@ div {
 }
 .content p {
 	font-size: 18px;
-	margin: 30px 15px 120px 15px;
+	margin: 20px 15px 120px 15px;
 }
 
-.buttons button, .buttons .watch span{
+.buttons button, .buttons .watch span, .buttons{
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
 	padding: 16px 26px;
 	line-height: 1.33;
 	color: white;
-	margin-top: 25px;
+	margin-top: 10px;
 	font-size: 20px;
 }
 
 .half {
 	display: inline-block;
 }
-.learn button{
-	background-color: red;
+.learn button, button.buttons{
+	background-color: #f15a29;
 }
 
 span img {
@@ -185,14 +183,118 @@ img.arrow-down{
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
     box-sizing: border-box;
     margin-top: 50px;
-
+    text-align: center;
+	padding: 0 3px;
+	line-height: 1.5;
 }
 
+.devices h3.internet {
+	margin-right: 20px;
+}
 .devices img {
 	width: 127px;
 	height: 127px;
+}
+
+.buy-now {
+	background-image: url('../img/bg-graphic-sharing-9a33cadeaa78a92b5ecbebaf1ebf6aa3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 900px;
+}
+
+.buy-now .content .left {
+	width: 32%;
+	text-align: left;
+	padding: 100px 0;
+	letter-spacing: 0.07em;
+}
+
+.left h3 {
+	color: #f15a29;
+}
+
+.left p {
+	padding: 0;
+	margin: 20px 0 0 0;
+	line-height: 1.5;
+}
+
+button.buttons {
+	margin-top: 25px;
+}
+.social {
+	color: #838994;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.social .content ul.company,
+.social .content ul.shop,
+.social .content ul.support,
+.social .content ul.news {
+	list-style: none;
+	text-align: left;
+	display: inline-block;
+	margin: 60px 30px 30px 30px;
+	vertical-align: top;
+}
+
+.social .content li {
+	padding-top: 8px;
+}
+.social .content a {
+	color: #838994 ;
+	text-decoration: none;
+}
+
+.social ul >:first-child {
+	color: #4c5058;
+	font-weight: 500;
+	padding-bottom: 7px;
+}
+
+.social .news input {
+	border: 1px solid #caccd1;
+	border-radius: 4px;
+}
+
+hr {
+	border:0;
+	border-bottom: 1px solid #eaebec;
+}
+
+ul.icons >:first-child, 
+ul.icons >:last-child {
+	display: block;
+	padding: 15px;
+}
+
+.icons li {
+	display: inline-block;
+	width: 
+}
+
+.icons i.fa {
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	margin: 2px;
+	border: 1px solid #eaebec;
+	border-radius: 50%;
+}
+
+.icons i.fa-twitter {
+	color: #55acee;
+}
+
+.icons i.fa-facebook {
+	color: #4c66a4;
+}
+
+.icons i.fa-instagram {
+	color: #3f729b;
 }

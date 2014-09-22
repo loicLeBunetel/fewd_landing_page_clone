@@ -61,6 +61,7 @@ body {
 	background-color: #fff;
 	font-family: 'Roboto', sans-serif; 
 	color: #4c5058;
+	text-rendering: optimizeLegibility;
 }
 
 
@@ -232,6 +233,7 @@ button.buttons {
 	margin-top: 30px;
 }
 
+.social .content ul.logo,
 .social .content ul.company,
 .social .content ul.shop,
 .social .content ul.support,
@@ -245,21 +247,47 @@ button.buttons {
 
 .social .content li {
 	padding-top: 8px;
+	position: relative;
 }
 .social .content a {
 	color: #838994 ;
 	text-decoration: none;
 }
 
+.bbb-logo {
+	display: inline-block;
+	background-image: url('https://dy53q6sor7j4i.cloudfront.net/assets/blue-seal-120-61-karma-mobility-inc-147415-837052ad5015b0e38a4571d489e60fe0.png');
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 55px;
+}
+
 .social ul >:first-child {
 	color: #4c5058;
-	font-weight: 500;
+	font-weight: 700;
 	padding-bottom: 7px;
 }
 
 .social .news input {
 	border: 1px solid #caccd1;
 	border-radius: 4px;
+	z-index: 1;
+	padding: 28px 5px 6px 12px;
+	font-size: 18px;
+	color: #caccd1;
+}
+
+.news label {
+	position: absolute;
+	top: 17px;
+	left: 15px;
+	z-index: 2;
+	font-weight: 700;
+}
+
+label::after{
+	content: '*';
+	color: red;
 }
 
 hr {

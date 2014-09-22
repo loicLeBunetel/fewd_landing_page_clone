@@ -78,7 +78,7 @@ body {
 
 .content > .logo {
 	height: 70px;
-	margin-right: 335px;
+	float: left;
 }
 
 .top-navigation .links {
